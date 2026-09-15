@@ -1,6 +1,6 @@
-# Omarchy Tesla Control
+Tesla Control
 
-An Omarchy bar widget for viewing Tesla battery status and sending vehicle
+An bar widget for viewing Tesla battery status and sending vehicle
 commands through the Tesla Fleet API.
 
 The repository contains only the widget and backend code. Account credentials,
