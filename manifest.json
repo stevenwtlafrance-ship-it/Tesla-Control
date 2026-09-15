@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "tesla.control",
+  "name": "Tesla",
+  "version": "1.0.0",
+  "author": "stevenwtlafrance-ship-it",
+  "description": "Tesla battery pill and remote vehicle controls",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Tesla",
+    "description": "Car battery pill with a remote control panel (climate, locks, charging, windows, trunk)",
+    "category": "Info",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}
