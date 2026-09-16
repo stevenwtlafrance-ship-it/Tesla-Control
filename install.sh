@@ -8,8 +8,7 @@ VENV="$INSTALL_DIR/venv"
 printf '%s\n' "Installing Tesla backend..."
 mkdir -p "$INSTALL_DIR"
 python3 -m venv "$VENV"
-"$VENV/bin/python" -m pip install --upgrade pip
-"$VENV/bin/python" -m pip install -r "$PLUGIN_DIR/backend/requirements.txt"
+"$VENV/bin/python" -m pip install --require-hashes --no-deps -r "$PLUGIN_DIR/backend/requirements.lock"
 
 mkdir -p "$HOME/.local/bin"
 cat > "$HOME/.local/bin/tesla-ctl" <<EOF
